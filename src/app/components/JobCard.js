@@ -1,7 +1,7 @@
 // components/JobCard.js
 import Link from 'next/link';
 import { format } from 'date-fns';
-import '../styles/JobCard.css';
+import '../styles/JobCard.module.css';
 
 export default function JobCard({ job, isToday }) {
   const formattedDate = format(new Date(job.walkinDate), 'dd MMM yyyy');

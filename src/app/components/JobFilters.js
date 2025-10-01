@@ -1,7 +1,7 @@
 // components/JobFilters.js
 'use client';
 import { useState } from 'react';
-import '../styles/filters.css';
+import '../styles/filters.module.css';
 
 export default function JobFilters() {
   const [filters, setFilters] = useState({
