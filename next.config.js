@@ -9,9 +9,7 @@ const nextConfig = withTM({
   images: {
     domains: ['cdn.sanity.io'],
   },
-  experimental: {
-    appDir: true,
-  },
+  experimental: { appDir: true },
   async headers() {
     return [
       {
@@ -25,8 +23,7 @@ const nextConfig = withTM({
       },
     ];
   },
-  // Disable Turbopack to avoid ESM build issues
-  turbo: false,
+  turbo: false, // disable Turbopack
 });
 
 module.exports = nextConfig;
