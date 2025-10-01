@@ -5,8 +5,7 @@
   "scripts": {
   "dev": "next dev --no-turbo",
   "build": "next build --no-turbo",
-  "start": "next start",
-  "lint": "eslint"
+  "start": "next start"
 },
   "dependencies": {
     "@sanity/client": "^7.11.2",
